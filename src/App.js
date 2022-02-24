@@ -105,7 +105,7 @@ class App extends Component {
                     >
                       <div>
                         <div id="tweets" className="ui list">
-                          {this.state.tweets.length == 0 && !this.state.isLoading ? (
+                          {this.state.tweets.length === 0 && !this.state.isLoading ? (
                             <h3>Please search for tweets by entering some query in the field above.</h3>
                           ) : this.state.isLoading ? (
                             <Loader />
@@ -136,7 +136,7 @@ class App extends Component {
                     >
                       <div>
                         <div id="saved-tweets" className="ui list">
-                          {this.state.savedTweets.length == 0 ? (
+                          {this.state.savedTweets.length === 0 ? (
                             <h3>
                               You don't have any tweets saved. Please drag tweets from the left section to this section.
                             </h3>
