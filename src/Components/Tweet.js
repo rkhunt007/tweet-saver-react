@@ -12,7 +12,7 @@ class Tweet extends Component {
           <div className="ui feed">
             <div className="event">
               <div className="label">
-                <img src={tweet.user.miniProfileImageURL} />
+                <img alt="user profile image" src={tweet.user.miniProfileImageURL} />
               </div>
               <div className="content">
                 <div className="summary">
