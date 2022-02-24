@@ -16,7 +16,7 @@ class Tweet extends Component {
               </div>
               <div className="content">
                 <div className="summary">
-                  <a href="javascript:void(0);">{tweet.user.name}</a>
+                  <span style={{ color: "#4183c4" }}>{tweet.user.name}</span>
                   <span> @{tweet.user.screenName}</span>
                   <div className="date">{tweet.createdAt ? new Date(tweet.createdAt).toLocaleString("en-US") : ""}</div>
                 </div>

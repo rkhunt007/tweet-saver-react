@@ -1,8 +1,8 @@
 export default function Loader() {
   return (
-    <div class="ui segment">
-      <div class="ui active dimmer">
-        <div class="ui indeterminate text loader">Searching tweets...</div>
+    <div className="ui segment">
+      <div className="ui active dimmer">
+        <div className="ui indeterminate text loader">Searching tweets...</div>
       </div>
       <p></p>
     </div>
